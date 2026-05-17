@@ -6,7 +6,7 @@ METHOD 1: Using the script directly
 
 2)Add the file to your godot project
 
-3)Attach the file to aNode2D in Godot
+3)Attach the file to a Node2D in Godot
 
 -----
 
