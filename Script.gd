@@ -11,8 +11,6 @@ var is_first_frame: bool = true
 #calculates filtered magnitude
 func _physics_process(delta: float) -> void:
 	
-	$STEPS.text = "Steps: " + str(steps)
-	
 	var raw_acceleration: Vector3 = Input.get_accelerometer()
 	raw_magnitude = raw_acceleration.length()
 	
