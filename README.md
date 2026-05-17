@@ -1,8 +1,8 @@
 Usage
 
-1)Using the script directly
+1)Using the script directly \n
 -Download the Script.gd file and attact it to a Node2D in Godot
 
-2)Downloading the godot project itself
+2)Downloading the godot project itself \n
 -Download the folder "main-app"
 -Click import in Godot
