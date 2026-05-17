@@ -17,7 +17,3 @@ METHOD 2: Downloading the Godot project itself
 2)Click "import" in Godot
 
 3)Select your folder and import it
-
-*Take from Baisc-Step-Counter for just the step counter*
-
-*Take from Step-Counter-Debug for graphs and debug stuff*
