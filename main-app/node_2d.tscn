@@ -1,24 +1,9 @@
 [gd_scene load_steps=2 format=3 uid="uid://b1mw5y4vgeqgi"]
 
-[ext_resource type="Script" uid="uid://1d4jt6e0af1j" path="res://MAIN.gd" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://co6ccl0v6bgcv" path="res://script.gd" id="1_wtcfe"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_wtcfe")
-
-[node name="Debug" type="Label" parent="."]
-offset_left = 21.0
-offset_top = 229.0
-offset_right = 1132.0
-offset_bottom = 1411.0
-theme_override_font_sizes/font_size = 50
-text = "debugger"
-autowrap_mode = 1
-
-[node name="Line2D" type="Line2D" parent="."]
-default_color = Color(0, 1, 0, 1)
-
-[node name="Line2D2" type="Line2D" parent="."]
-default_color = Color(1, 0, 0, 1)
 
 [node name="STEPS" type="Label" parent="."]
 offset_left = 12.0
@@ -27,22 +12,3 @@ offset_right = 452.0
 offset_bottom = 160.0
 theme_override_font_sizes/font_size = 64
 text = "50 steps"
-
-[node name="HSlider" type="HSlider" parent="."]
-offset_left = 322.0
-offset_top = 41.000008
-offset_right = 456.5
-offset_bottom = 57.000008
-scale = Vector2(5, 5)
-min_value = 0.01
-max_value = 0.5
-step = 0.01
-value = 0.08
-
-[node name="Label" type="Label" parent="HSlider"]
-layout_mode = 0
-offset_left = -1.0
-offset_top = 10.999998
-offset_right = 93.0
-offset_bottom = 34.0
-text = "alpha value:"
